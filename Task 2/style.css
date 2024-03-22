@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(31, 30, 30);
+}
+.container{
+  border: 1px solid white;
+  padding: 40px;
+  margin-left: 500px;
+  margin-top: 130px;
+  width: 400px;
+  background-color: blueviolet;
+  border-radius: 40px;
+} 
+h1{
+  text-align: center;
+}
+#myForm{
+  border: 1px solid black;
+  padding: 20px;
+  background-color: rgb(170, 86, 248,0.4);
+  border-radius: 20px;
+}
+button{
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 30px;
+  width: 100px;
+  align-self: center;
+  border-radius: 10px;
+}
+button:hover{
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+  
+label {
+  font-weight: bold;
+}
+  
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+  
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  display: none;
+}
+  
+.error-message.active {
+  display: block;
+}
+  
